@@ -1,0 +1,72 @@
+body {
+  background: #000;
+  overflow:hidden;
+}
+
+.centerMe {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+h1 {
+	font-family: Cambria, Georgia, serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+  color:#fff;
+   transform: rotate(-90deg);
+  float:left;
+  margin-left:-70px;
+  margin-top:100px;
+}
+
+.yoga {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background: url(https://github.com/mexicanamerican/upgraded-enigma/blob/main/IMG_2844.jpg?raw=true) 50% 50% no-repeat;
+  background-size: contain;
+  width: 70vw;
+  max-width: 900px;
+  height: 50vw;
+  max-height: 425px;
+  -webkit-animation: 4s floating infinite ease-in-out;
+          animation: 4s floating infinite ease-in-out;
+}
+
+@-webkit-keyframes floating {
+  0% {
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  65% {
+    -webkit-transform: translate(-50%, -54%);
+            transform: translate(-50%, -54%);
+  }
+  100% {
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+}
+
+@keyframes floating {
+  0% {
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  65% {
+    -webkit-transform: translate(-50%, -54%);
+            transform: translate(-50%, -54%);
+  }
+  100% {
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+}
